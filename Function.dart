@@ -20,6 +20,10 @@ void main() {
   list.forEach((element) {
     print(element);
   });
+
+  // Same as below
+
+  //  list.forEach((elements) =>  print(elements));
 }
 
 dynamic square(var name) {
