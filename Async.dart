@@ -17,7 +17,7 @@ void main() {
   print('Main Program ends');
 }
 
-printFileContent() async {
+void printFileContent() async {
   String fileContent = await downloadFile();
   print('The content of the file is ---> $fileContent');
 }
